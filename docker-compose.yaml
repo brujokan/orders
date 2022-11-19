@@ -1,0 +1,23 @@
+version: '3.3'
+
+
+services:
+  orders-db:
+    container_name: ordersdb
+    image: postgres
+    ports:
+      - 5433:5432
+    environment: 
+      POSTGRES_DB: orders
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    volumes:
+          - db-data:/data/db
+    networks:
+      - bookstore
+
+networks:
+    bookstore:
+
+volumes:
+  db-data:
