@@ -1,4 +1,4 @@
-package com.soma.bookstore.orders.application.configuration
+package com.soma.bookstore.orders.infrastructure.messaging.configuration
 
 import org.apache.kafka.clients.admin.NewTopic
 import org.springframework.beans.factory.annotation.Value

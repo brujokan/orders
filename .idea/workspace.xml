@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="431c31ee-031a-4019-9f4e-cc8d4bfdd45f" name="Changes" comment="" />
+    <list default="true" id="431c31ee-031a-4019-9f4e-cc8d4bfdd45f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/application/configuration/KafkaConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/configuration/KafkaConfiguration.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +153,9 @@
       <workItem from="1668702941455" duration="2641000" />
       <workItem from="1668791613977" duration="3534000" />
       <workItem from="1668795504837" duration="11000" />
-      <workItem from="1668856297013" duration="461000" />
+      <workItem from="1668856297013" duration="890000" />
+      <workItem from="1669131471068" duration="102000" />
+      <workItem from="1669310378334" duration="2761000" />
     </task>
     <servers />
   </component>
