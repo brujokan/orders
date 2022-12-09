@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component
 @Component
 class OrderProducerImpl(
     private val kafkaTemplate: KafkaTemplate<String, Any>,
-    @Value("\${kafka.topic}")
+    @Value("\${kafka.topic.create.order}")
     private val topic: String,
     private val messageMapper: Mapper<OrderMessage, Order>,
     private val objectMapper: ObjectMapper
