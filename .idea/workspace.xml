@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="431c31ee-031a-4019-9f4e-cc8d4bfdd45f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/application/configuration/KafkaConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/configuration/KafkaConfiguration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/orders.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/application/use_case/order/save/SaveOrderUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/application/use_case/order/save/SaveOrderUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/configuration/KafkaConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/configuration/KafkaConfiguration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/producer/OrderProducerImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/producer/OrderProducerImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/brujo/practicas-microservicios/bookstore/orders/src/main/kotlin/com/soma/bookstore/orders/infrastructure/handler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;12c500ed0b7879105fb46af0f246be87&quot;
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;12c500ed0b7879105fb46af0f246be87&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -156,6 +169,12 @@
       <workItem from="1668856297013" duration="890000" />
       <workItem from="1669131471068" duration="102000" />
       <workItem from="1669310378334" duration="2761000" />
+      <workItem from="1669651985649" duration="1796000" />
+      <workItem from="1669741247387" duration="2522000" />
+      <workItem from="1669969030886" duration="638000" />
+      <workItem from="1670433423423" duration="621000" />
+      <workItem from="1670488974804" duration="104000" />
+      <workItem from="1670577944512" duration="340000" />
     </task>
     <servers />
   </component>
