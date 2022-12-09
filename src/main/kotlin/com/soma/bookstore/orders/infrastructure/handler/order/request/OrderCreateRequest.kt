@@ -20,7 +20,7 @@ data class OrderCreateRequest(
     @field:Schema(name = "product_id",required = true, description = "Id of the purchased product")
     @JsonProperty("product_id")
     @NotNull(message = "Required")
-    val productId: Float,
+    val productId: String,
     @field:Schema(name = "payment_detail",required = true, description = "Payment detail card")
     @JsonProperty("payment_detail")
     @NotNull(message = "Required")

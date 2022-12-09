@@ -16,7 +16,7 @@ data class OrderResponse(
     @JsonProperty("price")
     val price: Float,
     @JsonProperty("product_id")
-    val productId: Float,
+    val productId: String,
     @JsonProperty("payment_detail")
     val paymentDetail: PaymentDetail
 )

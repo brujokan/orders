@@ -8,6 +8,6 @@ data class Order(
     val purchaseDate: Timestamp,
     val promotionId: Long?,
     val price: Float,
-    val productId: Float,
+    val productId: String,
     val paymentDetail: PaymentDetail? = null
 )
