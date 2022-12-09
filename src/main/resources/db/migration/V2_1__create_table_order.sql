@@ -10,5 +10,5 @@ CREATE TABLE "order".order
     purchase_date TIMESTAMP NOT NULL,
     promotion_id int8,
     price real NOT NULL,
-    product_id int8 NOT NULL
+    product_id varchar(255) NOT NULL
 );

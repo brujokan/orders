@@ -16,7 +16,7 @@ data class OrderEntity(
     val promotionId: Long?,
     val price: Float,
     @Column(name = "product_id")
-    val productId: Float,
+    val productId: String,
     @OneToOne
     @MapsId
     @JoinColumn(name = "id")
