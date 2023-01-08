@@ -17,7 +17,7 @@ class KafkaConfiguration(
     fun topic(): NewTopic {
         return TopicBuilder
             .name(topic)
-            .partitions(1)
+            .partitions(2)
             .replicas(1)
             .build()
     }

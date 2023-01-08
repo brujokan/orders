@@ -1,0 +1,59 @@
+#############
+# DEPLOYMENT  
+#############
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: orders-d
+spec:
+  selector:   #permite seleccionar un conjunto de objetos que cumplan las condicione
+    matchLabels:
+      app: orders
+  replicas: 2 # indica al controlador que ejecute 2 pods
+  template:   # Plantilla que define los containers
+    metadata:
+      labels:
+        app: orders
+    spec:
+      containers:
+      - name: orders
+        image: brujokan/bookstore-orders:1.0.0
+        ports:
+        - containerPort: 8081
+        env:
+          - name: BD_HOST
+            value: jdbc:postgresql://ordersdb-svc:5432/orders
+          - name: BD_USERNAME
+            valueFrom: 
+              secretKeyRef:
+                key: username
+                name: order-db-creds
+          - name: BD_PASSWORD
+            valueFrom: 
+              secretKeyRef:
+                key: password
+                name: order-db-creds
+          - name: CONFIG_SERVER
+            value: http://config-svc:8888
+          - name: KAFKA_SERVER
+            value: http://kafka-svc:9092
+        
+---
+
+#############
+# SERVICIO  
+#############
+apiVersion: v1
+kind: Service
+metadata:
+  name: orders-svc
+  labels:
+     app: orders
+spec:
+  type: NodePort
+  ports:
+  - port: 8081
+    nodePort: 30004
+    protocol: TCP
+  selector:
+     app: orders

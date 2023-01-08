@@ -5,43 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="431c31ee-031a-4019-9f4e-cc8d4bfdd45f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcutil_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/24d4acef-e110-4f59-9819-6bc4265215e2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/24d4acef-e110-4f59-9819-6bc4265215e2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912/storage_v2/_src_/database/orders.5WLfww.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912/storage_v2/_src_/database/orders.5WLfww/schema/__user___public.ki5Cng.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912/storage_v2/_src_/database/orders.5WLfww/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912/storage_v2/_src_/database/orders.5WLfww/schema/order.TodRBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/517e9736-e4d6-4b33-9c04-4e93c7101912/storage_v2/_src_/database/orders.5WLfww/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/24d4acef-e110-4f59-9819-6bc4265215e2/storage_v2/_src_/database/orders.5WLfww/schema/order.TodRBg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/24d4acef-e110-4f59-9819-6bc4265215e2/storage_v2/_src_/database/orders.5WLfww/schema/order.TodRBg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/orders.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/soma/bookstore/orders/OrdersApplicationTests.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/configuration/KafkaConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/soma/bookstore/orders/infrastructure/messaging/configuration/KafkaConfiguration.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -102,7 +79,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+      &quot;postgresql&quot;,
+      &quot;mongo&quot;
     ]
   }
 }</component>
@@ -116,6 +94,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunManager">
@@ -211,6 +190,11 @@
       <workItem from="1670866689835" duration="252000" />
       <workItem from="1670867978590" duration="258000" />
       <workItem from="1671116002123" duration="22000" />
+      <workItem from="1672673871514" duration="1937000" />
+      <workItem from="1672759739920" duration="1767000" />
+      <workItem from="1672844352522" duration="1020000" />
+      <workItem from="1672917301933" duration="1821000" />
+      <workItem from="1673196695396" duration="1216000" />
     </task>
     <servers />
   </component>

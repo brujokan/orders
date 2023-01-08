@@ -1,0 +1,60 @@
+#############
+# DEPLOYMENT  
+#############
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: ordersdb-d
+spec:
+  selector:   #permite seleccionar un conjunto de objetos que cumplan las condicione
+    matchLabels:
+      app: ordersdb
+  replicas: 1 # indica al controlador que ejecute 2 pods
+  template:   # Plantilla que define los containers
+    metadata:
+      labels:
+        app: ordersdb
+    spec:
+      containers:
+      - name: ordersdb
+        image: postgres
+        ports:
+        - containerPort: 5432
+        volumeMounts:
+          - name: orders-pv
+            mountPath: /var/lib/postgresql/data
+        env:
+          - name: POSTGRES_DB
+            value: orders
+          - name: POSTGRES_USER
+            valueFrom: 
+              secretKeyRef:
+                key: username
+                name: order-db-creds
+          - name: POSTGRES_PASSWORD
+            valueFrom: 
+              secretKeyRef:
+                key: password
+                name: order-db-creds
+      volumes:
+        - name: orders-pv
+          persistentVolumeClaim:
+            claimName: orders-pv
+---
+
+#############
+# SERVICIO  
+#############
+apiVersion: v1
+kind: Service
+metadata:
+  name: ordersdb-svc
+  labels:
+     app: ordersdb
+spec:
+  type: ClusterIP
+  ports:
+  - port: 5432
+    protocol: TCP
+  selector:
+     app: ordersdb
